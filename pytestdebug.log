@@ -1,0 +1,967 @@
+versions pytest-9.0.0, python-3.14.0.final.0
+invocation_dir=C:\Users\wizar\technicaltask\techtask2
+cwd=C:\Users\wizar\technicaltask\techtask2
+args=('.\\\\tests\\post_users.py', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x0000024B6AB43620>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x0000024B6AB43620>
+    early skip of rewriting module: socket [assertion]
+    early skip of rewriting module: _socket [assertion]
+    early skip of rewriting module: importlib.metadata._adapters [assertion]
+    early skip of rewriting module: email.message [assertion]
+    early skip of rewriting module: quopri [assertion]
+    early skip of rewriting module: email.utils [assertion]
+    early skip of rewriting module: email._parseaddr [assertion]
+    early skip of rewriting module: email.errors [assertion]
+    early skip of rewriting module: email._policybase [assertion]
+    early skip of rewriting module: email.header [assertion]
+    early skip of rewriting module: email.quoprimime [assertion]
+    early skip of rewriting module: email.base64mime [assertion]
+    early skip of rewriting module: email.charset [assertion]
+    early skip of rewriting module: email.encoders [assertion]
+    early skip of rewriting module: email._encoded_words [assertion]
+    early skip of rewriting module: email.iterators [assertion]
+    early skip of rewriting module: importlib.metadata._text [assertion]
+    early skip of rewriting module: email.parser [assertion]
+    early skip of rewriting module: email.feedparser [assertion]
+      pytest_metadata [hook]
+          metadata: {'Python': '3.14.0', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '9.0.0', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}}
+          config: <_pytest.config.Config object at 0x0000024B6AB43620>
+      finish pytest_metadata --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000024B6D0942F0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000024B6D0946E0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: encodings.unicode_escape [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x0000024B6D095550>
+          plugin_name: 2522975130960
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: asyncio [assertion]
+    early skip of rewriting module: asyncio.base_events [assertion]
+    early skip of rewriting module: concurrent [assertion]
+    early skip of rewriting module: concurrent.futures [assertion]
+    early skip of rewriting module: concurrent.futures._base [assertion]
+    early skip of rewriting module: _interpreters [assertion]
+    early skip of rewriting module: ssl [assertion]
+    early skip of rewriting module: _ssl [assertion]
+    early skip of rewriting module: asyncio.constants [assertion]
+    early skip of rewriting module: asyncio.coroutines [assertion]
+    early skip of rewriting module: asyncio.events [assertion]
+    early skip of rewriting module: contextvars [assertion]
+    early skip of rewriting module: asyncio.format_helpers [assertion]
+    early skip of rewriting module: _asyncio [assertion]
+    early skip of rewriting module: asyncio.base_futures [assertion]
+    early skip of rewriting module: asyncio.exceptions [assertion]
+    early skip of rewriting module: asyncio.base_tasks [assertion]
+    early skip of rewriting module: asyncio.futures [assertion]
+    early skip of rewriting module: asyncio.protocols [assertion]
+    early skip of rewriting module: asyncio.sslproto [assertion]
+    early skip of rewriting module: asyncio.transports [assertion]
+    early skip of rewriting module: asyncio.log [assertion]
+    early skip of rewriting module: asyncio.staggered [assertion]
+    early skip of rewriting module: asyncio.locks [assertion]
+    early skip of rewriting module: asyncio.mixins [assertion]
+    early skip of rewriting module: asyncio.tasks [assertion]
+    early skip of rewriting module: asyncio.queues [assertion]
+    early skip of rewriting module: asyncio.timeouts [assertion]
+    early skip of rewriting module: asyncio.trsock [assertion]
+    early skip of rewriting module: asyncio.graph [assertion]
+    early skip of rewriting module: asyncio.runners [assertion]
+    early skip of rewriting module: asyncio.streams [assertion]
+    early skip of rewriting module: asyncio.subprocess [assertion]
+    early skip of rewriting module: asyncio.taskgroups [assertion]
+    early skip of rewriting module: asyncio.threads [assertion]
+    early skip of rewriting module: asyncio.windows_events [assertion]
+    early skip of rewriting module: _overlapped [assertion]
+    early skip of rewriting module: asyncio.base_subprocess [assertion]
+    early skip of rewriting module: asyncio.proactor_events [assertion]
+    early skip of rewriting module: asyncio.selector_events [assertion]
+    early skip of rewriting module: selectors [assertion]
+    early skip of rewriting module: select [assertion]
+    early skip of rewriting module: asyncio.windows_utils [assertion]
+    early skip of rewriting module: _pyrepl [assertion]
+    early skip of rewriting module: _pyrepl.utils [assertion]
+    early skip of rewriting module: _pyrepl.types [assertion]
+    early skip of rewriting module: _pyrepl.trace [assertion]
+    early skip of rewriting module: rlcompleter [assertion]
+    early skip of rewriting module: readline [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+          plugin_name: 2522935991264
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x0000024B6AB43620>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_html\\plugin.py'>
+          plugin_name: html
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.fixtures' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_html\\fixtures.py'>
+          plugin_name: html_fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
+          plugin_name: metadata
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\wizar\\\\AppData\\\\Local\\\\Temp\\\\tmpobvli6yj' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\wizar\\\\AppData\\\\Local\\\\Temp\\\\tmp3voiyljf' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000024B6D0942F0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000024B6D0946E0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x0000024B6D095550>
+          plugin_name: 2522975130960
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x0000024B6D33C050>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x0000024B6D094590>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x0000024B6D33C980>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+          plugin_name: 2522935991264
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x0000024B6AB43620>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_html\\plugin.py'>
+          plugin_name: html
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.fixtures' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_html\\fixtures.py'>
+          plugin_name: html_fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
+          plugin_name: metadata
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\wizar\\\\AppData\\\\Local\\\\Temp\\\\tmpobvli6yj' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\wizar\\\\AppData\\\\Local\\\\Temp\\\\tmp3voiyljf' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000024B6D0942F0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000024B6D0946E0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x0000024B6D095550>
+          plugin_name: 2522975130960
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x0000024B6D33C050>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x0000024B6D094590>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x0000024B6D33C980>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x0000024B6D33D2B0>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x0000024B6AB41BE0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_html_report_title [hook]
+          report: <pytest_html.report_data.ReportData object at 0x0000024B6D0952B0>
+      finish pytest_html_report_title --> [] [hook]
+      pytest_html_results_table_header [hook]
+          cells: ['<th class="sortable" data-column-type="result">Result</th>', '<th class="sortable" data-column-type="testId">Test</th>', '<th class="sortable" data-column-type="duration">Duration</th>', '<th>Links</th>']
+      finish pytest_html_results_table_header --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x0000024B6AB43620>
+          start_path: C:\Users\wizar\technicaltask\techtask2
+          startdir: C:\Users\wizar\technicaltask\techtask2
+      finish pytest_report_header --> [['rootdir: C:\\Users\\wizar\\technicaltask\\techtask2', 'configfile: pytest.ini', 'plugins: html-4.1.1, metadata-3.1.1'], "metadata: {'Python': '3.14.0', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '9.0.0', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}}", 'cachedir: .pytest_cache', ['using: pytest-9.0.0', 'registered third-party plugins:', '  pytest-html-4.1.1 at C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_html\\plugin.py', '  pytest-html-4.1.1 at C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_html\\fixtures.py', '  pytest-metadata-3.1.1 at C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytest_metadata\\plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['.\\\\tests\\post_users.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=WindowsPath('C:/Users/wizar/technicaltask/techtask2/tests/post_users.py'), parts=[], parametrization=None, module_name=None, original_index=0) [collection]
+            pytest_collect_directory [hook]
+                path: C:\Users\wizar\technicaltask\techtask2
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir techtask2> [hook]
+            pytest_collectstart [hook]
+                collector: <Dir techtask2>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Dir techtask2>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x0000024B6AB43620>
+                  collection_path: C:\Users\wizar\technicaltask\techtask2\.pytest_cache
+                  path: C:\Users\wizar\technicaltask\techtask2\.pytest_cache
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x0000024B6AB43620>
+                  collection_path: C:\Users\wizar\technicaltask\techtask2\.venv
+                  path: C:\Users\wizar\technicaltask\techtask2\.venv
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x0000024B6AB43620>
+                  collection_path: C:\Users\wizar\technicaltask\techtask2\data
+                  path: C:\Users\wizar\technicaltask\techtask2\data
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: C:\Users\wizar\technicaltask\techtask2\data
+                  parent: <Dir techtask2>
+              finish pytest_collect_directory --> <Dir data> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x0000024B6AB43620>
+                  collection_path: C:\Users\wizar\technicaltask\techtask2\pytest.ini
+                  path: C:\Users\wizar\technicaltask\techtask2\pytest.ini
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir techtask2>
+                  file_path: C:\Users\wizar\technicaltask\techtask2\pytest.ini
+                  path: C:\Users\wizar\technicaltask\techtask2\pytest.ini
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x0000024B6AB43620>
+                  collection_path: C:\Users\wizar\technicaltask\techtask2\pytestdebug.log
+                  path: C:\Users\wizar\technicaltask\techtask2\pytestdebug.log
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir techtask2>
+                  file_path: C:\Users\wizar\technicaltask\techtask2\pytestdebug.log
+                  path: C:\Users\wizar\technicaltask\techtask2\pytestdebug.log
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x0000024B6AB43620>
+                  collection_path: C:\Users\wizar\technicaltask\techtask2\reports
+                  path: C:\Users\wizar\technicaltask\techtask2\reports
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: C:\Users\wizar\technicaltask\techtask2\reports
+                  parent: <Dir techtask2>
+              finish pytest_collect_directory --> <Dir reports> [hook]
+              pytest_collect_directory [hook]
+                  path: C:\Users\wizar\technicaltask\techtask2\tests
+                  parent: <Dir techtask2>
+              finish pytest_collect_directory --> <Dir tests> [hook]
+            finish pytest_make_collect_report --> <CollectReport '.' lenresult=3 outcome='passed'> [hook]
+            pytest_collectstart [hook]
+                collector: <Dir tests>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Dir tests>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x0000024B6AB43620>
+                  collection_path: C:\Users\wizar\technicaltask\techtask2\tests\__pycache__
+                  path: C:\Users\wizar\technicaltask\techtask2\tests\__pycache__
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x0000024B6AB43620>
+                  collection_path: C:\Users\wizar\technicaltask\techtask2\tests\get_users.py
+                  path: C:\Users\wizar\technicaltask\techtask2\tests\get_users.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: C:\Users\wizar\technicaltask\techtask2\tests\get_users.py
+                  path: C:\Users\wizar\technicaltask\techtask2\tests\get_users.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: C:\Users\wizar\technicaltask\techtask2\tests\post_users.py
+                  path: C:\Users\wizar\technicaltask\techtask2\tests\post_users.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Dir tests>
+                    module_path: C:\Users\wizar\technicaltask\techtask2\tests\post_users.py
+                    path: C:\Users\wizar\technicaltask\techtask2\tests\post_users.py
+                finish pytest_pycollect_makemodule --> <Module post_users.py> [hook]
+              finish pytest_collect_file --> [<Module post_users.py>] [hook]
+            finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=1 outcome='passed'> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module post_users.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module post_users.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module post_users.py>
+      find_module called for: post_users [assertion]
+      matched test file (was specified on cmdline): 'C:\\Users\\wizar\\technicaltask\\techtask2\\tests\\post_users.py' [assertion]
+      found cached rewritten pyc for C:\Users\wizar\technicaltask\techtask2\tests\post_users.py [assertion]
+      early skip of rewriting module: requests [assertion]
+      early skip of rewriting module: urllib3 [assertion]
+      early skip of rewriting module: urllib3.exceptions [assertion]
+      early skip of rewriting module: http [assertion]
+      early skip of rewriting module: http.client [assertion]
+      early skip of rewriting module: urllib3._base_connection [assertion]
+      early skip of rewriting module: urllib3.util [assertion]
+      early skip of rewriting module: urllib3.util.connection [assertion]
+      early skip of rewriting module: urllib3.util.timeout [assertion]
+      early skip of rewriting module: urllib3.util.request [assertion]
+      early skip of rewriting module: urllib3.util.util [assertion]
+      early skip of rewriting module: brotlicffi [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: urllib3.util.response [assertion]
+      early skip of rewriting module: urllib3.util.retry [assertion]
+      early skip of rewriting module: urllib3.util.ssl_ [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: _hmac [assertion]
+      early skip of rewriting module: urllib3.util.url [assertion]
+      early skip of rewriting module: urllib3.util.ssltransport [assertion]
+      early skip of rewriting module: urllib3.util.wait [assertion]
+      early skip of rewriting module: urllib3._collections [assertion]
+      early skip of rewriting module: urllib3._version [assertion]
+      early skip of rewriting module: urllib3.connectionpool [assertion]
+      early skip of rewriting module: queue [assertion]
+      early skip of rewriting module: _queue [assertion]
+      early skip of rewriting module: urllib3._request_methods [assertion]
+      early skip of rewriting module: urllib3.filepost [assertion]
+      early skip of rewriting module: urllib3.fields [assertion]
+      early skip of rewriting module: mimetypes [assertion]
+      early skip of rewriting module: urllib3.response [assertion]
+      early skip of rewriting module: brotlicffi [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: urllib3.connection [assertion]
+      early skip of rewriting module: urllib3.http2 [assertion]
+      early skip of rewriting module: urllib3.http2.probe [assertion]
+      early skip of rewriting module: urllib3.util.ssl_match_hostname [assertion]
+      early skip of rewriting module: urllib3.util.proxy [assertion]
+      early skip of rewriting module: urllib3.poolmanager [assertion]
+      early skip of rewriting module: requests.exceptions [assertion]
+      early skip of rewriting module: requests.compat [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: charset_normalizer [assertion]
+      early skip of rewriting module: charset_normalizer.api [assertion]
+      early skip of rewriting module: charset_normalizer.cd [assertion]
+      early skip of rewriting module: charset_normalizer.constant [assertion]
+      early skip of rewriting module: charset_normalizer.md [assertion]
+      early skip of rewriting module: charset_normalizer.md__mypyc [assertion]
+      early skip of rewriting module: charset_normalizer.utils [assertion]
+      early skip of rewriting module: _multibytecodec [assertion]
+      early skip of rewriting module: charset_normalizer.models [assertion]
+      early skip of rewriting module: charset_normalizer.legacy [assertion]
+      early skip of rewriting module: charset_normalizer.version [assertion]
+      early skip of rewriting module: simplejson [assertion]
+      early skip of rewriting module: http.cookiejar [assertion]
+      early skip of rewriting module: urllib.request [assertion]
+      early skip of rewriting module: urllib.error [assertion]
+      early skip of rewriting module: urllib.response [assertion]
+      early skip of rewriting module: calendar [assertion]
+      early skip of rewriting module: http.cookies [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: requests.packages [assertion]
+      early skip of rewriting module: idna [assertion]
+      early skip of rewriting module: idna.core [assertion]
+      early skip of rewriting module: idna.idnadata [assertion]
+      early skip of rewriting module: idna.intranges [assertion]
+      early skip of rewriting module: idna.package_data [assertion]
+      early skip of rewriting module: requests.utils [assertion]
+      early skip of rewriting module: requests.certs [assertion]
+      early skip of rewriting module: certifi [assertion]
+      early skip of rewriting module: certifi.core [assertion]
+      early skip of rewriting module: requests.__version__ [assertion]
+      early skip of rewriting module: requests._internal_utils [assertion]
+      early skip of rewriting module: requests.cookies [assertion]
+      early skip of rewriting module: requests.structures [assertion]
+      early skip of rewriting module: importlib.resources._adapters [assertion]
+      early skip of rewriting module: importlib.readers [assertion]
+      early skip of rewriting module: requests.api [assertion]
+      early skip of rewriting module: requests.sessions [assertion]
+      early skip of rewriting module: requests.adapters [assertion]
+      early skip of rewriting module: requests.auth [assertion]
+      early skip of rewriting module: requests.models [assertion]
+      early skip of rewriting module: encodings.idna [assertion]
+      early skip of rewriting module: stringprep [assertion]
+      early skip of rewriting module: requests.hooks [assertion]
+      early skip of rewriting module: requests.status_codes [assertion]
+      early skip of rewriting module: urllib3.contrib [assertion]
+      early skip of rewriting module: urllib3.contrib.socks [assertion]
+      early skip of rewriting module: socks [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module post_users.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module post_users.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module post_users.py>
+            name: json
+            obj: <module 'json' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\json\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module post_users.py>
+            name: requests
+            obj: <module 'requests' from 'C:\\Users\\wizar\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module post_users.py>
+            name: time
+            obj: <module 'time' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module post_users.py>
+            name: URL
+            obj: https://reqres.in/api
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module post_users.py>
+            name: load_test_data
+            obj: <function load_test_data at 0x0000024B6D365FE0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module post_users.py>
+            name: test_create_user
+            obj: <function test_create_user at 0x0000024B6D3661F0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000024B6D5FCD70>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_create_user>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/post_users.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_create_user> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_create_user>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/post_users.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x0000024B6AB43620>
+          items: [<Function test_create_user>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x0000024B6AB43620>
+            items: [<Function test_create_user>]
+            start_path: C:\Users\wizar\technicaltask\techtask2
+            startdir: C:\Users\wizar\technicaltask\techtask2
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=1>
+      pytest_runtest_protocol [hook]
+          item: <Function test_create_user>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/post_users.py::test_create_user
+            location: ('tests\\post_users.py', 10, 'test_create_user')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_create_user>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_user>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/post_users.py::test_create_user' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/post_users.py::test_create_user' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/post_users.py::test_create_user' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000024B6AB43620>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_create_user>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_create_user>
+          early skip of rewriting module: netrc [assertion]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x0000024B6AB43620>
+                op: ==
+                left: 401
+                right: 201
+            finish pytest_assertrepr_compare --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_user>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('assert 401 == 201\n +  where 401 = <Response [401]>.status_code') tblen=28>>
+        finish pytest_runtest_makereport --> <TestReport 'tests/post_users.py::test_create_user' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/post_users.py::test_create_user' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/post_users.py::test_create_user' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x0000024B6AB43620>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_create_user>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('assert 401 == 201\n +  where 401 = <Response [401]>.status_code') tblen=28>>
+            report: <TestReport 'tests/post_users.py::test_create_user' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_create_user>
+            nextitem: None
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_user>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/post_users.py::test_create_user' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/post_users.py::test_create_user' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/post_users.py::test_create_user' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000024B6AB43620>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+          pytest_html_duration_format [hook]
+              duration: 0.0005474999998114072
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/post_users.py::test_create_user' when='setup' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/post_users.py::test_create_user::setup</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/post_users.py::test_create_user' when='setup' outcome='passed'>
+              data: ['No log output captured.']
+          finish pytest_html_results_table_html --> [] [hook]
+          pytest_html_duration_format [hook]
+              duration: 0.6275842000004559
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/post_users.py::test_create_user' when='call' outcome='failed'>
+              cells: ['<td class="col-result">Failed</td>', '<td class="col-testId">tests/post_users.py::test_create_user</td>', '<td class="col-duration">628 ms</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/post_users.py::test_create_user' when='call' outcome='failed'>
+              data: ['def test_create_user():\n        data = load_test_data()\n    \n        for user in data:\n            start_time = time.time()\n            end_time = time.time()\n            response = requests.post(f&quot;{URL}/users&quot;, json=user)\n            elapsed_ms = (end_time - start_time) * 1000\n    \n            # Assert status code\n&gt;           assert response.status_code == 201\nE           assert 401 == 201\nE            +  where 401 = &lt;Response [401]&gt;.status_code\n\ntests\\post_users.py:21: AssertionError\n']
+          finish pytest_html_results_table_html --> [] [hook]
+          pytest_html_duration_format [hook]
+              duration: 0.0005035000003772439
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/post_users.py::test_create_user' when='teardown' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/post_users.py::test_create_user::teardown</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/post_users.py::test_create_user' when='teardown' outcome='passed'>
+              data: ['No log output captured.']
+          finish pytest_html_results_table_html --> [] [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/post_users.py::test_create_user
+            location: ('tests\\post_users.py', 10, 'test_create_user')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=1 testscollected=1>
+        exitstatus: 1
+      pytest_html_results_summary [hook]
+          prefix: []
+          summary: []
+          postfix: []
+          session: <Session  exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=1 testscollected=1>
+      finish pytest_html_results_summary --> [] [hook]
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x0000024B6D33C050>
+          exitstatus: 1
+          config: <_pytest.config.Config object at 0x0000024B6AB43620>
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/post_users.py::test_create_user' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x0000024B6AB43620>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x0000024B6AB43620>
+    finish pytest_unconfigure --> [] [hook]
